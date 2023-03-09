@@ -1,0 +1,8 @@
+@use "sass:color";
+@use "../abstracts/" as *;
+
+html {
+    color: map-get($colors, "green");
+    font-family: $font-family;
+    font-weight: $font-300;
+}
